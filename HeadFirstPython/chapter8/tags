@@ -1,0 +1,47 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AthleteList	cgi-bin/athletelist.py	/^class AthleteList(list):$/;"	c
+__init__	cgi-bin/athletelist.py	/^    def __init__(self, a_name, a_dob=None, a_times=[]):$/;"	m	class:AthleteList
+app	coachapp.py	/^app = android.Android()$/;"	v
+as_dict	cgi-bin/athletelist.py	/^    def as_dict(self):$/;"	m	class:AthleteList
+athlete_name	cgi-bin/generate_data.py	/^athlete_name = form_data['which_athlete'].value$/;"	v
+athlete_name	cgi-bin/generate_timing_data.py	/^athlete_name = form_data['which_athlete'].value$/;"	v
+athlete_names	coachapp.py	/^athlete_names = sorted(json.loads(send_to_server(web_server + get_names_cgi)))$/;"	v
+athletes	cgi-bin/generate_data.py	/^athletes = athletemodel.get_from_store()$/;"	v
+athletes	cgi-bin/generate_list.py	/^athletes = athletemodel.put_to_store(data_files)$/;"	v
+athletes	cgi-bin/generate_timing_data.py	/^athletes = athletemodel.get_from_store()$/;"	v
+clean_data	cgi-bin/athletelist.py	/^    def clean_data(self):$/;"	m	class:AthleteList
+data_files	cgi-bin/generate_list.py	/^data_files = glob.glob("data\/*.txt")$/;"	v
+end_form	cgi-bin/yate.py	/^def end_form(submit_msg="Submit"):$/;"	f
+form_data	cgi-bin/generate_data.py	/^form_data = cgi.FieldStorage()$/;"	v
+form_data	cgi-bin/generate_timing_data.py	/^form_data = cgi.FieldStorage()$/;"	v
+get_coach_get	cgi-bin/athletemodel.py	/^def get_coach_get(filename):$/;"	f
+get_data_cgi	coachapp.py	/^get_data_cgi = '\/cgi-bin\/generate_data.py'$/;"	v
+get_from_store	cgi-bin/athletemodel.py	/^def get_from_store():$/;"	f
+get_names_cgi	coachapp.py	/^get_names_cgi = '\/cgi-bin\/generate_names.py'$/;"	v
+get_names_from_store	cgi-bin/athletemodel.py	/^def get_names_from_store():$/;"	f
+header	cgi-bin/yate.py	/^def header(header_text, header_level=2):$/;"	f
+hello_msg	coachapp.py	/^hello_msg = "welcome to coache kelly's timeing app"$/;"	v
+httpd	simple_httpd.py	/^httpd = HTTPServer(('', port), CGIHTTPRequestHandler)$/;"	v
+include_footer	cgi-bin/yate.py	/^def include_footer(the_links):$/;"	f
+include_header	cgi-bin/yate.py	/^def include_header(the_title):$/;"	f
+list_title	coachapp.py	/^list_title = "here is you list of athletes:"$/;"	v
+names	cgi-bin/generate_names.py	/^names = athletemodel.get_name_from_store()$/;"	v
+para	cgi-bin/yate.py	/^def para(para_text):$/;"	f
+port	simple_httpd.py	/^port = 8080$/;"	v
+put_to_store	cgi-bin/athletemodel.py	/^def put_to_store(files_list):$/;"	f
+quit_msg	coachapp.py	/^quit_msg = "Quitting coach kelly's app."$/;"	v
+radio_button	cgi-bin/yate.py	/^def radio_button(rb_name, rb_value):$/;"	f
+resp	coachapp.py	/^resp = app.dialogGetResponse().result$/;"	v
+sanitize	cgi-bin/athletelist.py	/^    def sanitize(time_string):$/;"	m	class:AthleteList
+send_to_server	coachapp.py	/^def send_to_server(url, post_data=None):$/;"	f
+start_form	cgi-bin/yate.py	/^def start_form(the_url, form_type="POST"):$/;"	f
+start_response	cgi-bin/yate.py	/^def start_response(resp="text\/html"):$/;"	f
+status_update	coachapp.py	/^def status_update(msg, how_long = 2):$/;"	f
+top3	cgi-bin/athletelist.py	/^    def top3(self):$/;"	m	class:AthleteList
+u_list	cgi-bin/yate.py	/^def u_list(items):$/;"	f
+web_server	coachapp.py	/^web_server = 'http:\/\/192.168.0.107:8888'$/;"	v
